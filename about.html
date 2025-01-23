@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - SKILLIO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="gallery/logo.png" alt="SKILLIO">
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#" id="contactBtn">Contact Us</a>
+            <button class="join-btn" id="joinBtn">Join</button>
+        </div>
+    </header>
+
+    <main style="padding: 2rem 5%;">
+        <h1 class="logo">About 
+            <img src="gallery/logo3.png" alt="SKILLIO"></h1>
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2rem;">
+            <div>
+                <h2>Our Mission</h2>
+                <p>SKILLIO is dedicated to connecting talented freelancers with businesses and individuals who need their expertise. We believe in creating opportunities for professionals worldwide while helping businesses find the perfect talent for their projects.</p>
+                
+                <h2 style="margin-top: 2rem;">Our Vision</h2>
+                <p>We envision a world where work knows no boundaries, where talent meets opportunity, and where professional dreams become reality. SKILLIO is more than just a platform; it's a community where excellence meets opportunity.</p>
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c" 
+                     alt="Team collaboration" 
+                     style="width: 100%; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+            </div>
+        </div>
+    </main>
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="logo">
+                <img src="gallery/logo.png" alt="SKILLIO">
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/christiano_joshy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Join Modal -->
+    <div id="joinModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="logo">SKILLIO</div>
+            <form class="login-form">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SKILLIO. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SKILLIO - Freelance Platform</title>
+    <link rel="icon" href="gallery/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="gallery/logo.png" alt="SKILLIO">
+        </div>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="#" id="contactBtn">Contact Us</a>
+            <button class="join-btn" id="joinBtn">Join</button>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h1>FREELANCE FREEDOM: YOUR WORK, YOUR TIME</h1>
+        <div class="search-box">
+            <input type="text" placeholder="Search for services...">
+        </div>
+    </div>
+
+    <div class="categories">
+        <div class="category-card">
+            <i class="fas fa-code"></i>
+            <p>Programming & Tech</p>
+        </div>
+        <div class="category-card">
+            <i class="fas fa-bullhorn"></i>
+            <p>Digital Marketing</p>
+        </div>
+        <div class="category-card">
+            <i class="fas fa-robot"></i>
+            <p>AI Services</p>
+        </div>
+        <div class="category-card">
+            <i class="fas fa-briefcase"></i>
+            <p>Business</p>
+        </div>
+        <div class="category-card">
+            <i class="fas fa-comments"></i>
+            <p>Consulting</p>
+        </div>
+    </div>
+
+    <div class="cta-section">
+        <img src="gallery/make.png" alt="Collaboration" class="bg-image">
+        <h2>Make It All Happen With Freelancers</h2>
+        <p>Connect with talented professionals from around the world and get your projects done with excellence.</p>
+        <button class="join-btn">Join Now</button>
+    </div>
+
+    <div class="cta-section">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f" alt="Premium" class="bg-image">
+        <h2>Premium Services</h2>
+        <p>Get access to top-tier freelancers and exclusive features</p>
+        <button class="join-btn">Join Premium</button>
+    </div>
+
+  
+
+    <!-- Contact Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="logo">SKILLIO</div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Join Modal -->
+    <div id="joinModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="logo">SKILLIO</div>
+            <form class="login-form">
+                <input type="email" placeholder="Email">
+                <input type="password" placeholder="Password">
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SKILLIO. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
