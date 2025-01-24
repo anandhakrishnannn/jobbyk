@@ -21,41 +21,59 @@
     </header>
 
     <div class="client-dashboard">
-        <div class="search-container">
-            <input type="text" placeholder="Search for services..." class="search-input">
-            <button class="search-btn"><i class="fas fa-search"></i></button>
-        </div>
+        <div class="dashboard-container">
+            <div class="sidebar">
+                <div class="sort-section">
+                    <h3>Sort By</h3>
+                    <div class="sort-option">
+                        <input type="checkbox" id="sortName" class="sort-checkbox">
+                        <label for="sortName">Name</label>
+                    </div>
+                    <div class="sort-option">
+                        <input type="checkbox" id="sortPopular" class="sort-checkbox">
+                        <label for="sortPopular">Most Popular</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <div class="search-container">
+                    <input type="text" placeholder="Search for services..." class="search-input">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
 
-        <div class="services-grid">
-            <div class="service-card">
-                <img src="gallery/smart.jpg" alt="Web Development">
-                <h3>Web Development</h3>
-                <p>Custom websites and web applications development</p>
-                <button class="hire-btn">Hire Now</button>
-            </div>
-            <div class="service-card">
-                <img src="gallery/marketing.jpg" alt="Digital Marketing">
-                <h3>Digital Marketing</h3>
-                <p>SEO, social media, and content marketing services</p>
-                <button class="hire-btn">Hire Now</button>
-            </div>
-            <div class="service-card">
-                <img src="gallery/computer.jpg" alt="Mobile App Development">
-                <h3>Mobile App Development</h3>
-                <p>iOS and Android app development services</p>
-                <button class="hire-btn">Hire Now</button>
-            </div>
-            <div class="service-card">
-                <img src="gallery/4578429.jpg" alt="UI/UX Design">
-                <h3>UI/UX Design</h3>
-                <p>User interface and experience design services</p>
-                <button class="hire-btn">Hire Now</button>
-            </div>
-            <div class="service-card">
-                <img src="gallery/idea.jpg" alt="Content Writing">
-                <h3>Content Writing</h3>
-                <p>Professional content writing and copywriting</p>
-                <button class="hire-btn">Hire Now</button>
+                <div class="services-grid" id="servicesGrid">
+                    <div class="service-card" data-name="Web Development" data-popularity="95">
+                        <img src="gallery/computer.jpg" alt="Web Development">
+                        <h3>Web Development</h3>
+                        <p>Custom websites and web applications development</p>
+                        <button class="hire-btn">Hire Now</button>
+                    </div>
+                    <div class="service-card" data-name="Digital Marketing" data-popularity="88">
+                        <img src="gallery/marketing.jpg" alt="Digital Marketing">
+                        <h3>Digital Marketing</h3>
+                        <p>SEO, social media, and content marketing services</p>
+                        <button class="hire-btn">Hire Now</button>
+                    </div>
+                    <div class="service-card" data-name="Mobile App Development" data-popularity="92">
+                        <img src="gallery/mobile.jpg" alt="Mobile App Development">
+                        <h3>Mobile App Development</h3>
+                        <p>iOS and Android app development services</p>
+                        <button class="hire-btn">Hire Now</button>
+                    </div>
+                    <div class="service-card" data-name="UI/UX Design" data-popularity="85">
+                        <img src="gallery/4578429.jpg" alt="UI/UX Design">
+                        <h3>UI/UX Design</h3>
+                        <p>User interface and experience design services</p>
+                        <button class="hire-btn">Hire Now</button>
+                    </div>
+                    <div class="service-card" data-name="Content Writing" data-popularity="78">
+                        <img src="gallery/idea.jpg" alt="Content Writing">
+                        <h3>Content Writing</h3>
+                        <p>Professional content writing and copywriting</p>
+                        <button class="hire-btn">Hire Now</button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
